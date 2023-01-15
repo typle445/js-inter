@@ -7,28 +7,34 @@
     <link rel="stylesheet" href="./app.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <title>Document</title>
   </head>
   <body>
-    <form action="#" class="Form">
-      <fieldset>
-        <legend class="form-legend">
-          <i class="fa-solid fa-unlock"></i>
-          LogIn Form
-        </legend>
-        <div class="form-input">
-          <label for="" class="form-label">
-            <i class="fa-solid fa-user"></i>
-            Username
-          </label>
-          <input type="text" />
+    <div class="container row justify-content-center align-items-center">
+      <div class="col-11">
+        <div
+          class="border min-vh-100 border-2 border-info d-flex flex-column justify-content-center align-items-center">
+          <h1 class="d-block my-5">Your USD: <span id="USDT"></span></h1>
+
+          <div
+            class="w-100 d-flex justify-content-center align-items-center-center">
+            <input
+              type="number"
+              class="form-control me-3"
+              id="MMK-Input"
+              placeholder="MMK To USDT" />
+            <button id="Btn" class="btn btn-outline-primary me-3">Exchange</button>
+          </div>
         </div>
-      </fieldset>
-    </form>
+      </div>
+    </div>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio qui amet
+      excepturi non dignissimos velit aspernatur rerum nemo mollitia minima enim
+      nisi voluptas, consequuntur fugit placeat similique molestias neque eum!
+    </p>
     <script src="./script.js"></script>
   </body>
 </html>
